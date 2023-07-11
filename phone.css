@@ -1,0 +1,237 @@
+body{
+    background-color: rgb(240, 230, 230);
+}
+/*
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+/* Mobile Devices: */
+@media only screen and (max-width: 760px) {
+
+    /* Navigation */
+    #list1 {
+        display: flex;
+        margin-top: -51px;
+        margin-left: 15px;
+      /* hide the ul and li elements */
+    }
+    
+    #list1 li {
+        font-size: 0.9rem;
+        
+    }
+  
+    #logo {
+      margin-top: 5px;
+      margin-left: -352px; /* decrease the margin */
+      width: 40px;
+      height: 40px;
+    }
+    #navbar {
+      flex-direction: column; /* stack the navigation items */
+      height: auto; /* auto-height */
+      background-color: rgb(31, 31, 31);
+      opacity: 0.9;
+      z-index: ;
+    }
+    #navbar::before {
+      display: none; /* hide the background */
+    }
+  
+    /* Home Section */
+    #home {
+      padding: 3px 20px; /* adjust the padding */
+      height: 300px; /* increase the height */
+    }
+    #home h1 {
+      margin-top: 50px;
+      font-size: 1.8rem; /* decrease the font size */
+    }
+    #home p {
+      font-size: 1rem; /* decrease the font size */
+    }
+    .h-primary {
+      font-size: 2.5rem; /* decrease the font size */
+      padding: 6px; /* increase the padding */
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 6px 16px;
+      font-size: 0.9rem; /* decrease the font size */
+    }
+  
+ /* Services Section */
+ .services{
+  margin-top: 152px;
+ }
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  #box {
+    width: 300px; /* set the width of each box to 300px */
+    height: auto;
+    margin: 5px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  #box p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* adjust styles for screens larger than 768px */
+    #services {
+      justify-content: space-between;
+      margin: 0 50px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    
+    #box {
+      margin: 0;
+    }
+  
+  }
+  
+
+
+    /* CLIENT SEC */
+    #client-section::before{
+        content: "";
+      
+        overflow: hidden;
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        
+        
+        z-index: -1;
+        
+    }
+    #client-section {
+     
+      background: url(imgs/foodmood.jpg);
+      
+        padding: 50px 0;
+        
+      }
+    
+      
+      #client {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      
+      #client2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      
+      .client-item {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 250px;
+      }
+      
+      .client-item img {
+        max-height: 100px; /* set a maximum height for the images */
+      }
+      
+      @media screen and (min-width: 768px) {
+        /* adjust styles for screens larger than 768px */
+        .client-item {
+          width: auto;
+          max-width: none;
+        }
+        
+        .client-item img {
+          max-height: none;
+          max-width: 100%;
+        }
+      }
+
+
+       /* Contact Section */
+    #contact::before {
+      margin-top: 100px;
+       /* increase the margin */
+    }
+ 
+    #contact-box {
+      padding
+      
+    }
+    * {
+        margin: 0;
+        padding: 1;
+        margin-top: 10px;
+    }
+
+    #form {
+     
+    }
+      footer{
+        padding: 0px 57px;
+        background-color: black;
+        opacity: 0.99;
+        color: azure;
+        margin-bottom: 3px;
+        bottom: 0;
+     }
+
+      body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* copyright */
+
+footer {
+  padding: 0px 57px;
+  background-color: black;
+  opacity: 0.99;
+  color: azure;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.6rem;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Services Online</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="screen and (max-width: 790px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="imgs/logo.png" alt="logo" height="65" width="65">
+        </div>
+        <ul id="list1">
+           
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#divv">Services</a></li>
+            <li class="item"><a href="#divv2">About Us</a></li>
+            <li class="item"><a href="#divv3">Contact Us</a></li>
+     
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="hprimary">Welcome to FOOD MOOD Online!</h1>
+        <p>Food Mood Online- FMO is a Food delivery Website
+            that lets the food sulk in your mouth fresh and hot.<br>
+            Go on! Order aall you want to!
+        </p>
+        <button class="btn" onclick="openEditablePage()">Order Now</button>
+        <script>
+            function openEditablePage() {
+              // Replace "https://www.example.com" with the URL of the page you want to open
+              window.open("order-page.html", "_self");
+            }
+          </script>
+    </section>
+    <section class="services">
+        <h1 class="h-primary center">
+            <div id="divv">
+                Services Provided </div></h1>
+                <div id="services">
+                    <div id="box">
+                        <img src="imgs/foodcatering.png" alt="burger">
+                        <h2 class="h-secondary center">Food Catering</h2>
+                        <p>Food catering services provide a professional 
+                            and convenient way to offer delicious and 
+                            customizable food options for any event.</p>
+                    </div>
+                    <div id="box">
+                        <img src="imgs/bulkorder.png" alt="burger">
+                        <h2 class="h-secondary center">Bulk Orders</h2>
+                        <p>Bulk orders are an ideal way to save money 
+                            and time on your purchase, especially for 
+                            products that have a long shelf life.</p>
+                    </div>
+                    <div id="box">
+                        <img src="imgs/homedel.png" alt="burger">
+                        <h2 class="h-secondary center">Home Delivery</h2>
+                        <p>Home delivery services have become increasingly
+                             popular, providing unmatched convenience for
+                              customers to receive products right at their 
+                              doorstep.</p>
+                    </div>
+
+                </div>
+        </h1>
+
+        
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center"> <div id="divv2">Our Clients</div></h1>
+            <div id="client">
+                <div class="client-item">
+                    <img src="imgs/l8.png" alt="our client">
+                </div>
+                <div class="client-item">
+                    <img src="imgs/l2.png" alt="our client">
+                </div>
+                <div class="client-item">
+                    <img src="imgs/l3.png" alt="our client">
+                </div>
+            </div>
+            <br>
+            <div id="client2">
+                <div class="client-item">
+                    <img src="imgs/l1.png" alt="our client">
+                </div>
+                <div class="client-item">
+                    <img src="imgs/l5.png" alt="our client">
+                </div>
+                <div class="client-item">
+                    <img src="imgs/l6.png" alt="our client">
+                </div>
+                <div class="client-item">
+                    <img src="imgs/l7.png" alt="our client">
+                </div>
+            </div>
+        </h1>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center"><div id="divv3">Contact Us</div></h1> <br>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name ">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email ID: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your name ">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your name ">
+                </div>
+                <div class="form-group">
+                    <label for="name">Review: </label> <br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer><div class="center">
+        Copyright &copy; www.FoodMoodOnline.com. All Rights Reserved.
+    </div></footer>
+   
+
+</body>
+</html>
